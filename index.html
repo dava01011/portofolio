@@ -52,7 +52,9 @@
     <div class="hero-grid-bg"></div>
     <div class="hero-blob"></div>
     <div class="hero-inner">
+
       <div class="hero-content">
+
         <div class="hero-badge">
           <span class="chip">⚙️</span>
           <span class="hero-badge-text" id="badgeText" data-lang="id">SIAP MEMBANGUN</span>
@@ -69,13 +71,27 @@
           <a href="#projects" class="btn-pix btn-red">▶ <span data-lang="id">Lihat Projek</span><span data-lang="en">View Projects</span></a>
           <a href="#contact"  class="btn-pix btn-cyan">✉ <span data-lang="id">Hubungi Saya</span><span data-lang="en">Contact Me</span></a>
         </div>
-        <div class="hero-stats">
-          <div class="hstat"><strong>4+</strong><span data-lang="id">PROJEK</span><span data-lang="en">PROJECTS</span></div>
-          <div class="hstat"><strong>6+</strong><span data-lang="id">TEKNOLOGI</span><span data-lang="en">TECH STACKS</span></div>
-          <div class="hstat"><strong>RPL</strong><span data-lang="id">LULUSAN</span><span data-lang="en">GRADUATE</span></div>
+        <div class="hero-mobile-profile">
+          <div class="hmp-frame">
+            <div class="hmp-photo">
+              <img src="img/profile.jpeg" alt="Dava Aria Guntoro"
+                   onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="hmp-fallback" style="display:none">🧑‍💻</div>
+            </div>
+          </div>
+          <div class="hmp-bar">
+            <span>DAVA.EXE</span>
+            <div class="hmp-dots">
+              <div class="hmp-dot"></div>
+              <div class="hmp-dot"></div>
+              <div class="hmp-dot"></div>
+              <div class="hmp-dot dim"></div>
+            </div>
+          </div>
         </div>
       </div>
 
+      <!-- Desktop diagonal card (hidden on mobile via CSS) -->
       <div class="hero-visual">
         <div class="hero-card">
           <div class="hero-card-bg"></div>
@@ -96,7 +112,9 @@
             </div>
           </div>
         </div>
+
       </div>
+
     </div>
   </section>
 
@@ -107,7 +125,7 @@
         <p class="sec-eyebrow reveal" data-lang="id">TENTANG SAYA</p>
         <p class="sec-eyebrow reveal" data-lang="en">ABOUT ME</p>
         <h2 class="sec-title reveal d1" data-lang="id">LULUSAN BARU</h2>
-        <h2 class="sec-title reveal d1" data-lang="en">FRESHGRADUATE</h2>
+        <h2 class="sec-title reveal d1" data-lang="en">FRESH GRADUATE</h2>
       </div>
       <div class="about-grid">
         <div class="about-text reveal d2">
@@ -130,7 +148,6 @@
         </div>
 
         <div class="org-cards reveal d3">
-
           <div class="org-card">
             <div class="org-photo oph-1">
               <img src="img/osis.jpg" alt="OSIS Sekbid 4"
@@ -159,12 +176,12 @@
                    onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
               <div class="org-photo-placeholder" style="display:none">
                 <span>🏀</span>
-                <span data-lang="id">Taruh foto di img/basket.jpg</span>
-                <span data-lang="en">Put photo at img/basket.jpg</span>
+                <span data-lang="id">Taruh foto di img/basket.jpeg</span>
+                <span data-lang="en">Put photo at img/basket.jpeg</span>
               </div>
               <div class="org-photo-label" data-lang="id">EKSKUL BASKET</div>
               <div class="org-photo-label" data-lang="en">BASKETBALL CLUB</div>
-              <div class="org-photo-hint">img/basket.jpg</div>
+              <div class="org-photo-hint">img/basket.jpeg</div>
             </div>
             <div class="org-body">
               <h4 data-lang="id">EKSKUL BASKET</h4>
@@ -196,13 +213,10 @@
               <p data-lang="en">Programming logic, product development, database management, system testing.</p>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </section>
-
-
 
   <!--Projects-->
   <section id="projects">
@@ -212,8 +226,8 @@
         <p class="sec-eyebrow reveal" data-lang="en">PORTFOLIO</p>
         <h2 class="sec-title reveal d1" data-lang="id">PROJEK UNGGULAN</h2>
         <h2 class="sec-title reveal d1" data-lang="en">FEATURED PROJECTS</h2>
-        <p class="sec-desc reveal d2" data-lang="id">Projek nyata yang dikerjakan selama studi .</p>
-        <p class="sec-desc reveal d2" data-lang="en">Real-world projects built during studies .</p>
+        <p class="sec-desc reveal d2" data-lang="id">Projek nyata yang dikerjakan selama studi.</p>
+        <p class="sec-desc reveal d2" data-lang="en">Real-world projects built during studies.</p>
       </div>
       <div class="proj-grid">
         <div class="proj-card reveal d1">
@@ -251,8 +265,8 @@
           <div class="proj-body">
             <h3 data-lang="id">SISTEM MANAJEMEN<br>APOTEK</h3>
             <h3 data-lang="en">PHARMACY<br>MANAGEMENT SYSTEM</h3>
-            <p data-lang="id">Aplikasi desktop untuk manajemen obat, transaksi penjualan, stok, dan laporan apotek. Database terstruktur .</p>
-            <p data-lang="en">Desktop app for medicine data, sales transactions, stock, and pharmacy reports. Structured database .</p>
+            <p data-lang="id">Aplikasi desktop untuk manajemen obat, transaksi penjualan, stok, dan laporan apotek. Database terstruktur.</p>
+            <p data-lang="en">Desktop app for medicine data, sales transactions, stock, and pharmacy reports. Structured database.</p>
             <div class="tech-tags">
               <span class="ttag">C#</span><span class="ttag">WinForms</span>
               <span class="ttag">MySQL</span><span class="ttag">SQL Server</span>
@@ -266,14 +280,14 @@
           <div class="proj-thumb pt2">
             <img src="img/proj-hotel-attendance.png" alt="Hotel Staff Attendance System" onerror="this.style.display='none'">
             <svg viewBox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M3 9h18M7 8v8M12 8v8M17 8v8"/></svg>
-            <div class="proj-year">2024</div>
+            <div class="proj-year">2026</div>
             <div class="proj-note" data-lang="id">Dashboard</div>
             <div class="proj-note" data-lang="en">Dashboard</div>
             <div class="proj-photo-hint">img/proj-hotel-attendance.png</div>
           </div>
           <div class="proj-body">
-            <h3 data-lang="id">Hotel Staff Attendance System<br>SISTEM ABSENSI</h3>
-            <h3 data-lang="en">Hotel Staff Attendance System<br>ATTENDANCE SYSTEM</h3>
+            <h3 data-lang="id">HOTEL STAFF<br>ATTENDANCE SYSTEM</h3>
+            <h3 data-lang="en">HOTEL STAFF<br>ATTENDANCE SYSTEM</h3>
             <p data-lang="id">Sistem manajemen absensi karyawan hotel berbasis web dengan Face Recognition, geolokasi, dan alur persetujuan cuti multi-level.</p>
             <p data-lang="en">Web-based hotel staff attendance system featuring Face Recognition, geolocation, and multi-level leave approval workflow.</p>
             <div class="tech-tags">
@@ -289,16 +303,16 @@
           <div class="proj-thumb pt2">
             <img src="img/proj-car-credit.png" alt="Car Credit System" onerror="this.style.display='none'">
             <svg viewBox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M3 9h18M7 8v8M12 8v8M17 8v8"/></svg>
-            <div class="proj-year">2024</div>
+            <div class="proj-year">2025</div>
             <div class="proj-note" data-lang="id">Dashboard</div>
             <div class="proj-note" data-lang="en">Dashboard</div>
             <div class="proj-photo-hint">img/proj-car-credit.png</div>
           </div>
-          <div class="proj-body">
-            <h3 data-lang="id">Car Credit System<br>SISTEM KREDIT MOBIL</h3>
-            <h3 data-lang="en">Car Credit System<br>VEHICLE CREDIT MANAGEMENT</h3>
-            <p data-lang="id">Sistem manajemen kredit kendaraan berbasis web untuk dealer mobil dengan fitur transaksi cash, cicilan otomatis, dan laporan PDF. Mendapat predikat "Sangat Kompeten" dalam Uji Kompetensi.</p>
-            <p data-lang="en">Web-based vehicle credit management system for car dealers featuring cash transactions, automated installment calculations, and PDF reporting. Awarded "Highly Competent" status in Professional Certification.</p>
+          <div class="proj-body">    
+            <h3 data-lang="id">CAR CREDIT<br>SYSTEM</h3>
+            <h3 data-lang="en">CAR CREDIT<br>SYSTEM</h3>
+            <p data-lang="id">Sistem manajemen kredit kendaraan berbasis web untuk dealer mobil dengan transaksi cash, cicilan otomatis, dan laporan PDF. Predikat "Sangat Kompeten" dalam Uji Kompetensi.</p>
+            <p data-lang="en">Web-based vehicle credit management for car dealers with cash transactions, automated installments, and PDF reporting. Awarded "Highly Competent" in Professional Certification.</p>
             <div class="tech-tags">
               <span class="ttag">Laravel</span><span class="ttag">PHP</span>
               <span class="ttag">MySQL</span><span class="ttag">Bootstrap</span>
@@ -323,72 +337,26 @@
         <p class="sec-desc reveal d2" data-lang="id">Pernah dan sedang bekerja pada institusi/perusahaan berikut</p>
         <p class="sec-desc reveal d2" data-lang="en">Currently and previously working with the following institutions/companies</p>
       </div>
-      <!-- <div class="exp-timeline">
-
-        <div class="exp-item reveal d1">
-          <div class="exp-dot"></div>
-          <div class="exp-card">
-            <div class="exp-period">Jan 2025 – Mar 2025</div>
-            <h3 data-lang="id">Magang Web Developer</h3>
-            <h3 data-lang="en">Web Developer Intern</h3>
-            <div class="exp-company">Nama Perusahaan — Kota</div>
-            <p data-lang="id">Tulis ringkas apa yang kamu kerjakan selama magang di sini, misalnya membangun modul backend, integrasi API, atau perbaikan bug.</p>
-            <p data-lang="en">Briefly describe what you worked on during the internship, e.g. building backend modules, API integration, or bug fixes.</p>
-            <div class="tech-tags">
-              <span class="ttag">Laravel</span><span class="ttag">MySQL</span><span class="ttag">Git</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="exp-item reveal d2">
-          <div class="exp-dot"></div>
-          <div class="exp-card">
-            <div class="exp-period">Jul 2024 – Dec 2024</div>
-            <h3 data-lang="id">Praktik Kerja Lapangan (PKL)</h3>
-            <h3 data-lang="en">Field Work Practice (PKL)</h3>
-            <div class="exp-company">SMK TI Pembangunan Cimahi</div>
-            <p data-lang="id">Mengembangkan sistem sebagai bagian dari program PKL jurusan RPL. Ganti dengan detail projek PKL kamu.</p>
-            <p data-lang="en">Developed a system as part of the RPL department's PKL program. Replace with the details of your own PKL project.</p>
-            <div class="tech-tags">
-              <span class="ttag">PHP</span><span class="ttag">MySQL</span><span class="ttag">Bootstrap</span>
-            </div>
-          </div>
-        </div>
-
-      </div> -->
-
       <div class="exp-logos-block">
-        <!-- <p class="sec-eyebrow reveal" data-lang="id">BEKERJA SAMA DENGAN</p>
-        <p class="sec-eyebrow reveal" data-lang="en">WORKED WITH</p>
-        <p class="exp-logos-desc reveal d1" data-lang="id">Pernah dan sedang bekerja pada institusi/perusahaan berikut</p>
-        <p class="exp-logos-desc reveal d1" data-lang="en">Currently and previously working with the following institutions/companies</p> -->
         <div class="exp-logos reveal d2">
           <div class="exp-logo-box">
-            <a href="https://www.google.com/aclk?sa=L&ai=DChsSEwjen9Sw5buVAxXQhmYCHVH6O5gYACICCAEQBRoCc20&ae=2&co=1&ase=2&gclid=CjwKCAjwgajSBhBEEiwASicJU199ag8rw52Q-VirhYAxyXg5H9N_TDA20ilXET9thpYT6eSDMgEI8BoCM6sQAvD_BwE&cid=CAASugHkaKrFN-aQ3bV5ruh_BDDfoDc-2gyalNkWLyorvIKZ4UMnuDW1oPGBj7vCh79VVkKD_Q495oNmYxHDW0uWYjYHDICFUkgtUhD_YLhVQB2Lu1eFa4XJgbKBRE5PrV6USY7ZvbBaWQw8c6uWL-VRMhmkHrxoZosnsz5hvaIclWqnCOOitigxYFJJEvPnAKi1bPRRKZo_EGlY5WBHhxJFG8Yk95Jyvy290eNXZvT68ku7JjDuqWC6HaeR2sY&cce=2&category=acrcp_v1_71&sig=AOD64_2GtG6Ykhyho80YDtVETocvRFO0Nw&q&nis=4&adurl&ved=2ahUKEwij7cuw5buVAxWHi2MGHc8wHvgQ0Qx6BAhJEAE" target="_blank" >
-            <img src="img/harris.png" alt="Logo 1" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <a href="https://www.harrishotels.com" target="_blank">
+              <img src="img/harris.png" alt="Harris Hotels" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             </a>
             <div class="exp-logo-fallback" style="display:none">?</div>
           </div>
           <div class="exp-logo-box">
-            <a href="https://www.google.com/aclk?sa=L&ai=DChsSEwjYsaW86ruVAxVQwzwCHcSWDlkYACICCAEQBxoCc2Y&ae=2&co=1&ase=2&gclid=CjwKCAjwgajSBhBEEiwASicJU9t5rRhbYkPZm_UwjVB_Vmj-3AzSqxKezAHK6YIS4qoJldaUUCS_XxoCZtkQAvD_BwE&ei=gnVKavG3BOaaseMPz_b34AM&cid=CAASugHkaOBgrjPVgyEJx4HEdR_l0z7mbsAVCYdmJ8uwGT7TMFQPXHV50CbVzcwQPkDkyQ6-DDSPAc1cA0Fd4kRqzlxhiPq5RroPFk177C1CyAGLZFTzt7xHINsgLssqdMJluiuw4yefcEHFvc56afZz49PlZ46GVP94B8vIN3_wXPhGA8pDYWgSC4-f71iUG_IECu_IjhxhqZ-vWq4POc6vPfzZR51a65lssi9Uoymrs_3iXTuPf75UgjYQiEk&cce=2&category=acrcp_v1_71&sig=AOD64_1GW3Aqwga2ovC9wNeLu8yNFdWq6g&q&sqi=2&nis=4&adurl&ved=2ahUKEwjxgKC86ruVAxVmTWwGHU_7HTwQ0Qx6BAgfEAQ" target="_blank">
-            <img src="img/pop.png" alt="Logo 2" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <a href="https://www.pop-hotels.com" target="_blank">
+              <img src="img/pop.png" alt="Pop Hotels" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
             </a>
             <div class="exp-logo-fallback" style="display:none">?</div>
           </div>
-          <!-- <div class="exp-logo-box">
-            <img src="img/logo-3.png" alt="Logo 3" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="exp-logo-fallback" style="display:none">?</div>
-          </div>
-          <div class="exp-logo-box">
-            <img src="img/logo-4.png" alt="Logo 4" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="exp-logo-fallback" style="display:none">?</div>
-          </div> -->
         </div>
       </div>
     </div>
   </section>
 
-  <!--Kontak-->
+  <!--Contact-->
   <section id="contact">
     <div class="wrap">
       <div class="contact-top">
@@ -412,12 +380,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="contact-banner reveal">
-      <h3 data-lang="id">MARI BERKOLABORASI!</h3>
-      <h3 data-lang="en">LET'S WORK TOGETHER!</h3>
-      <p data-lang="id">Terbuka untuk peluang kerja, magang, dan kolaborasi di bidang terkait.</p>
-      <p data-lang="en">Open to job opportunities, internships, and collaboration.</p>
-    </div> -->
   </section>
 
   <!--Footer-->
