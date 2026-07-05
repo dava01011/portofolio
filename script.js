@@ -56,7 +56,7 @@ document.querySelectorAll('.reveal').forEach(el => revObs.observe(el));
 
 // Badge typewriter (ID only)
 const badgeEl = document.getElementById('badgeText');
-const phrases = ['SIAP BANGUN', 'OPEN TO WORK', 'READY TO CODE'];
+const phrases = ['SIAP MEMBANGUN', 'OPEN TO WORK', 'READY TO CODE'];
 let pi = 0, ci = 0, deleting = false;
 function typeLoop() {
   if (!badgeEl) return;
