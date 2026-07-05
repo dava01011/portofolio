@@ -239,7 +239,7 @@ section { padding: 5.5rem 0; }
 .hstat strong { font-family: 'Press Start 2P', monospace; font-size: 1.1rem; color: var(--gold); display: block; text-shadow: 0 0 8px rgba(255,215,0,.4); }
 .hstat span { font-family: 'Press Start 2P', monospace; font-size: .35rem; color: var(--muted); margin-top: .4rem; display: block; }
 
-/* ── Desktop hero card (diagonal split) ── */
+/* Desktop hero card (diagonal split) */
 .hero-visual { position: relative; display: flex; justify-content: center; align-items: center; }
 .hero-card { position: relative; width: 340px; height: 430px; }
 .hero-card-bg {
@@ -295,7 +295,7 @@ section { padding: 5.5rem 0; }
 .fchip-txt strong { font-family: 'Press Start 2P', monospace; font-size: .38rem; color: var(--text); display: block; margin-bottom: .2rem; }
 .fchip-txt span { font-family: 'Press Start 2P', monospace; font-size: .3rem; color: var(--muted); }
 
-/* ── MOBILE profile card (hidden on desktop) ── */
+/* MOBILE profile card (hidden on desktop) */
 .hero-mobile-profile { display: none; }
 
 /* ABOUT */
@@ -483,7 +483,7 @@ footer span { color: var(--accent); }
 
   /* Hexagon-ish avatar frame on mobile */
   .hmp-frame {
-    width: 160px; height: 160px;
+    width: 160px; height: 180px;
     position: relative;
     flex-shrink: 0;
   }
@@ -493,7 +493,7 @@ footer span { color: var(--accent); }
     position: absolute;
     inset: -6px; z-index: 0;
     background: var(--accent);
-    clip-path: polygon(12px 0, calc(100% - 12px) 0, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0 calc(100% - 12px), 0 12px);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 72% 100%, 0 100%);    
     opacity: .35;
   }
   /* Cyan dot top-right */
@@ -509,7 +509,7 @@ footer span { color: var(--accent); }
     border: 3px solid var(--accent);
     overflow: hidden;
     position: relative; z-index: 1;
-    clip-path: polygon(12px 0, calc(100% - 12px) 0, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0 calc(100% - 12px), 0 12px);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 72% 100%, 0 100%);
     background: var(--panel);
     box-shadow: 0 0 20px rgba(232,39,45,.3);
   }
@@ -545,7 +545,7 @@ footer span { color: var(--accent); }
 
 @media (max-width: 600px) {
   .hero-name { font-size: .9rem; }
-  .hmp-frame, .hmp-photo { width: 140px; height: 140px; }
+  .hmp-frame, .hmp-photo { width: 160px; height: 180px; }
   .org-photo { width: 70px; min-width: 70px; }
   .exp-timeline { padding-left: 1.6rem; }
   .exp-dot { left: -1.6rem; }
